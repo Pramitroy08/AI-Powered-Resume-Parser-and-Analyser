@@ -1,0 +1,14 @@
+# Mobile Build Files
+APP/build/
+APP/.dart_tool/
+APP/.packages
+APP/.pub-cache/
+APP/.pub/
+
+# Web Build Files
+node_modules/
+dist/
+.env
+
+# OS files
+.DS_Store

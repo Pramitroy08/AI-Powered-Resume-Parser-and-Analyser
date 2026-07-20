@@ -139,7 +139,7 @@ class _DashboardPageState extends State<DashboardPage> {
   // THE API LOGIC
   Future<String> _getAIResponse(String resumeText, String query) async {
     // 1. Setup your API Key
-    const apiKey = 'AIzaSyClahOeoR5FAbTmdFDQzBZxj7mS-c9Aq9I'; // <--- REPLACE THIS
+    const apiKey = 'AIzaSyClahOeoR5FAb**********'; 
     
     final model = GenerativeModel(
       model: 'gemini-2.5-flash',
